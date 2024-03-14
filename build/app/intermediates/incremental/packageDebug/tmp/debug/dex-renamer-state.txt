@@ -1,0 +1,4 @@
+#Tue Mar 12 13:57:46 CST 2024
+base.0=D\:\\TRABAJOS FLUTTER\\pantalla_clash_royale\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

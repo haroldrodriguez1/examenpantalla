@@ -1,0 +1,10 @@
+^D:\TRABAJOS FLUTTER\PANTALLA_CLASH_ROYALE\BUILD\WINDOWS\X64\CMAKEFILES\926A9783E70079D6780DB60A2DADAB95\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

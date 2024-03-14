@@ -1,0 +1,1 @@
+ D:\\TRABAJOS\ FLUTTER\\pantalla_clash_royale\\.dart_tool\\flutter_build\\0f9ba5daaef1b108e8c72bae087044c8\\native_assets.yaml: 

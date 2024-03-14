@@ -1,0 +1,28 @@
+^D:\TRABAJOS FLUTTER\PANTALLA_CLASH_ROYALE\BUILD\WINDOWS\X64\CMAKEFILES\38158D7E4E5509B773438C6AC44BA210\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"D:\VISUAL 2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter "PROJECT_DIR=D:\TRABAJOS FLUTTER\pantalla_clash_royale" FLUTTER_ROOT=D:\flutter "FLUTTER_EPHEMERAL_DIR=D:\TRABAJOS FLUTTER\pantalla_clash_royale\windows\flutter\ephemeral" "PROJECT_DIR=D:\TRABAJOS FLUTTER\pantalla_clash_royale" "FLUTTER_TARGET=D:\TRABAJOS FLUTTER\pantalla_clash_royale\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8wNDgxN2M5OWM5ZmQ0OTU2ZjI3NTA1MjA0ZjdlMzQ0MzM1ODEwYWVkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\TRABAJOS FLUTTER\pantalla_clash_royale\.dart_tool\package_config.json" D:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TRABAJOS FLUTTER\PANTALLA_CLASH_ROYALE\BUILD\WINDOWS\X64\CMAKEFILES\B534CF195D878DFEB1F31332C496B4EC\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TRABAJOS FLUTTER\PANTALLA_CLASH_ROYALE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"D:\VISUAL 2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/TRABAJOS FLUTTER/pantalla_clash_royale/windows" "-BD:/TRABAJOS FLUTTER/pantalla_clash_royale/build/windows/x64" --check-stamp-file "D:/TRABAJOS FLUTTER/pantalla_clash_royale/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\TRABAJOS FLUTTER\PANTALLA_CLASH_ROYALE\BUILD\WINDOWS\X64\CMAKEFILES\926A9783E70079D6780DB60A2DADAB95\GENERATE.STAMP.RULE
+setlocal
+"D:\VISUAL 2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/TRABAJOS FLUTTER/pantalla_clash_royale/windows" "-BD:/TRABAJOS FLUTTER/pantalla_clash_royale/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/TRABAJOS FLUTTER/pantalla_clash_royale/build/windows/x64/pantalla_clash_royale.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
